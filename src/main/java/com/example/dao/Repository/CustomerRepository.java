@@ -27,7 +27,7 @@ public class CustomerRepository {
     public CustomerRepository() {
         this.query = read("myScript.sql");
     }
-    
+
 
     public List<Order> getProductName(String name) throws SQLException {
         // "alexey"
